@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tarifs transparents pour vos diagnostics immobiliers. Contactez Diag-Expert pour un devis gratuit et personnalisé.">
+    <title>Prix & Contact | Diag-Expert</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-clipboard-check"></i>
+                    <span>Diag-Expert</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                    <a href="diagnostics.html" class="nav-link">Les Diagnostics</a>
+                    <a href="prix-contact.html" class="nav-link active">Prix/Contact</a>
+                    <a href="en-savoir-plus.html" class="nav-link">En savoir +</a>
+                    <a href="#devis-form" class="nav-link cta-button">Devis gratuit</a>
+                    <a href="#chatbot" class="nav-link chat-link" id="chatbot-toggle"><i class="fas fa-comments"></i> Chat bot</a>
+                </nav>
+                <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Nos Tarifs & Contact</h1>
+            <p>Transparence et simplicité pour tous vos diagnostics</p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">Tarifs Indicatifs</h2>
+            <p class="text-center" style="margin-bottom: 40px;">Tarifs variables selon la taille et la localisation du bien</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Diagnostics Essentiels</h3>
+                    <div class="price">À partir de <span class="price-amount">80€</span></div>
+                    <ul class="pricing-features">
+                        <li>DPE</li>
+                        <li>Gaz</li>
+                        <li>Électricité</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="badge">Pack Complet</div>
+                    <h3>Diagnostics Complets</h3>
+                    <div class="price">À partir de <span class="price-amount">250€</span></div>
+                    <ul class="pricing-features">
+                        <li>DPE</li>
+                        <li>Gaz & Électricité</li>
+                        <li>Amiante</li>
+                        <li>Plomb (CREP)</li>
+                        <li>Mesurage</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Diagnostics Individuels</h3>
+                    <div class="price">À partir de <span class="price-amount">50€</span></div>
+                    <ul class="pricing-features">
+                        <li>Par diagnostic</li>
+                        <li>Tarifs dégressifs</li>
+                        <li>Devis personnalisé</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pricing-note">
+                <p><i class="fas fa-info-circle"></i> Les tarifs peuvent varier selon le type de bien, sa surface et sa localisation. Un devis gratuit vous sera fourni après étude de votre demande.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Téléphone</h3>
+                    <p>01 23 45 67 89</p>
+                    <span>Lun-Ven: 8h-19h | Sam: 9h-17h</span>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>contact@diag-expert.fr</p>
+                    <span>Réponse sous 24h</span>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Zone d'Intervention</h3>
+                    <p>Toute la France</p>
+                    <span>Intervention à domicile</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Devis Form -->
+    <section id="devis-form" class="form-section">
+        <div class="container">
+            <div class="form-container">
+                <h2>Demandez Votre Devis Gratuit</h2>
+                <p class="form-subtitle">Remplissez le formulaire ci-dessous et recevez votre devis personnalisé sous 24h</p>
+                
+                <form id="devisForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="nom">Nom complet *</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telephone">Téléphone *</label>
+                        <input type="tel" id="telephone" name="telephone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="type-bien">Type de bien *</label>
+                        <select id="type-bien" name="type-bien" required>
+                            <option value="">Sélectionnez un type</option>
+                            <option value="appartement">Appartement</option>
+                            <option value="maison">Maison</option>
+                            <option value="studio">Studio</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="diagnostics">Diagnostics souhaités *</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="diagnostics" value="dpe"> DPE</label>
+                            <label><input type="checkbox" name="diagnostics" value="gaz"> Gaz</label>
+                            <label><input type="checkbox" name="diagnostics" value="electricite"> Électricité</label>
+                            <label><input type="checkbox" name="diagnostics" value="amiante"> Amiante</label>
+                            <label><input type="checkbox" name="diagnostics" value="termites"> Termites</label>
+                            <label><input type="checkbox" name="diagnostics" value="plomb"> Plomb (CREP)</label>
+                            <label><input type="checkbox" name="diagnostics" value="carrez"> Loi Carrez</label>
+                            <label><input type="checkbox" name="diagnostics" value="boutin"> Loi Boutin</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message (optionnel)</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Informations complémentaires..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">Envoyer ma demande de devis</button>
+                    
+                    <p class="form-privacy">
+                        <i class="fas fa-lock"></i> Vos données sont protégées et ne seront jamais partagées avec des tiers.
+                    </p>
+                </form>
+
+                <div id="form-success" class="form-message success" style="display: none;">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Votre demande de devis a été envoyée avec succès ! Nous vous recontacterons dans les plus brefs délais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Diag-Expert</h3>
+                    <p>Expert en diagnostics immobiliers certifiés</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> 01 23 45 67 89</p>
+                    <p><i class="fas fa-envelope"></i> contact@diag-expert.fr</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Diag-Expert. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div id="chatbot" class="chatbot-widget">
+        <div class="chatbot-icon" id="chatbot-icon">
+            <i class="fas fa-comments"></i>
+        </div>
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">
+                <h3>Chat avec un expert</h3>
+                <button class="chatbot-close" id="chatbot-close">&times;</button>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="chatbot-message bot-message">
+                    Bonjour ! 👋 Je suis là pour vous aider avec vos diagnostics immobiliers.
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbot-input" placeholder="Tapez votre message...">
+                <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez tous nos diagnostics immobiliers : DPE, gaz, électricité, amiante, termites, loi Carrez, loi Boutin et plus encore.">
+    <title>Les Diagnostics | Diag-Expert</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-clipboard-check"></i>
+                    <span>Diag-Expert</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                    <a href="diagnostics.html" class="nav-link active">Les Diagnostics</a>
+                    <a href="prix-contact.html" class="nav-link">Prix/Contact</a>
+                    <a href="en-savoir-plus.html" class="nav-link">En savoir +</a>
+                    <a href="prix-contact.html#devis-form" class="nav-link cta-button">Devis gratuit</a>
+                    <a href="#chatbot" class="nav-link chat-link" id="chatbot-toggle"><i class="fas fa-comments"></i> Chat bot</a>
+                </nav>
+                <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Nos Diagnostics Immobiliers</h1>
+            <p>Diagnostics obligatoires et facultatifs pour tous types de biens</p>
+        </div>
+    </section>
+
+    <!-- Diagnostics List -->
+    <section class="diagnostics-list">
+        <div class="container">
+            <!-- DPE -->
+            <div id="dpe" class="diagnostic-item">
+                <div class="diagnostic-icon"><i class="fas fa-fire"></i></div>
+                <div class="diagnostic-content">
+                    <h2>Diagnostic de Performance Énergétique (DPE)</h2>
+                    <p class="diagnostic-mandatory">Obligatoire</p>
+                    <p>Le DPE évalue la performance énergétique d'un bien immobilier et classe sa consommation d'énergie sur une échelle de A à G.</p>
+                    <ul class="diagnostic-details">
+                        <li>Durée de validité : 10 ans</li>
+                        <li>Obligatoire pour : Vente ou location</li>
+                        <li>Délai : 24h après visite</li>
+                    </ul>
+                    <a href="prix-contact.html" class="btn btn-outline">Demander un devis</a>
+                </div>
+            </div>
+
+            <!-- Gaz -->
+            <div id="gaz" class="diagnostic-item">
+                <div class="diagnostic-icon"><i class="fas fa-gas-pump"></i></div>
+                <div class="diagnostic-content">
+                    <h2>Diagnostic Installation Intérieure Gaz (DIAG)</h2>
+                    <p class="diagnostic-mandatory">Obligatoire</p>
+                    <p>Vérifie la conformité et la sécurité des installations de gaz pour éviter tout risque d'explosion ou d'intoxication.</p>
+                    <ul class="diagnostic-details">
+                        <li>Durée de validité : 3 ans</li>
+                        <li>Obligatoire pour : Biens équipés de gaz âgés de plus de 15 ans</li>
+                        <li>Délai : 24h après visite</li>
+                    </ul>
+                    <a href="prix-contact.html" class="btn btn-outline">Demander un devis</a>
+                </div>
+            </div>
+
+            <!-- Électricité -->
+            <div id="electricite" class="diagnostic-item">
+                <div class="diagnostic-icon"><i class="fas fa-bolt"></i></div>
+                <div class="diagnostic-content">
+                    <h2>Diagnostic Installation Intérieure Électricité (DIE)</h2>
+                    <p class="diagnostic-mandatory">Obligatoire</p>
+                    <p>Contrôle la sécurité des installations électriques et détecte les risques d'électrocution ou d'incendie.</p>
+                    <ul class="diagnostic-details">
+                        <li>Durée de validité : 3 ans</li>
+                        <li>Obligatoire pour : Biens équipés d'électricité âgés de plus de 15 ans</li>
+                        <li>Délai : 24h après visite</li>
+                    </ul>
+                    <a href="prix-contact.html" class="btn btn-outline">Demander un devis</a>
+                </div>
+            </div>
+
+            <!-- Amiante -->
+            <div id="amiante" class="diagnostic-item">
+                <div class="diagnostic-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                <div class="diagnostic-content">
+                    <h2>Diagnostic Amiante</h2>
+                    <p class="diagnostic-mandatory">Obligatoire</p>
+                    <p>Détecte la présence d'amiante dans les matériaux et produits de construction, protégeant ainsi la santé des occupants.</p>
+                    <ul class="diagnostic-details">
+                        <li>Durée de validité : Sans limite si absence avérée, sinon selon prescription</li>
+                        <li>Obligatoire pour : Biens construits avant le 1er juillet 1997</li>
+                        <li>Délai : 48h après visite</li>
+                    </ul>
+                    <a href="prix-contact.html" class="btn btn-outline">Demander un devis</a>
+                </div>
+            </div>
+
+            <!-- Termites -->
+            <div id="termites" class="diagnostic-item">
+                <div class="diagnostic-icon"><i class="fas fa-bug"></i></div>
+                <div class="diagnostic-content">
+                    <h2>Diagnostic Termites & Parasites</h2>
+                    <p class="diagnostic-mandatory">Obligatoire</p>
+                    <p>Détecte la présence de termites et autres parasites du bois pouvant compromettre la solidité de la structure.</p>
+                    <ul class="diagnostic-details">
+                        <li>Durée de validité : 6 mois</li>
+                        <li>Obligatoire pour : Zones à risque définies par arrêté préfectoral</li>
+                        <li>Délai : 24h après visite</li>
+                    </ul>
+                    <a href="prix-contact.html" class="btn btn-outline">Demander un devis</a>
+                </div>
+            </div>
+
+            <!-- Loi Carrez -->
+            <div id="mesurage" class="diagnostic-item">
+                <div class="diagnostic-icon"><i class="fas fa-ruler-combined"></i></div>
+                <div class="diagnostic-content">
+                    <h2>Loi Carrez (Mesurage Carrez)</h2>
+                    <p class="diagnostic-mandatory">Obligatoire</p>
+                    <p>Mesure et attestation de la superficie privative d'un lot de copropriété lors de la vente.</p>
+                    <ul class="diagnostic-details">
+                        <li>Durée de validité : Sans limite</li>
+                        <li>Obligatoire pour : Vente d'un lot de copropriété</li>
+                        <li>Délai : 24h après visite</li>
+                    </ul>
+                    <a href="prix-contact.html" class="btn btn-outline">Demander un devis</a>
+                </div>
+            </div>
+
+            <!-- Loi Boutin -->
+            <div id="boutin" class="diagnostic-item">
+                <div class="diagnostic-icon"><i class="fas fa-home"></i></div>
+                <div class="diagnostic-content">
+                    <h2>Loi Boutin (Surface de plancher)</h2>
+                    <p class="diagnostic-mandatory">Obligatoire</p>
+                    <p>Mesure et attestation de la surface de plancher habitable d'un bien immobilier pour la location ou la vente.</p>
+                    <ul class="diagnostic-details">
+                        <li>Durée de validité : Sans limite</li>
+                        <li>Obligatoire pour : Location ou vente</li>
+                        <li>Délai : 24h après visite</li>
+                    </ul>
+                    <a href="prix-contact.html" class="btn btn-outline">Demander un devis</a>
+                </div>
+            </div>
+
+            <!-- Plomb -->
+            <div id="plomb" class="diagnostic-item">
+                <div class="diagnostic-icon"><i class="fas fa-tint"></i></div>
+                <div class="diagnostic-content">
+                    <h2>Diagnostic Plomb (CREP)</h2>
+                    <p class="diagnostic-mandatory">Obligatoire</p>
+                    <p>Recherche les peintures au plomb ou revêtements contenant du plomb, particulièrement dangereux pour la santé.</p>
+                    <ul class="diagnostic-details">
+                        <li>Durée de validité : Sans limite si absence, sinon 1 an</li>
+                        <li>Obligatoire pour : Biens construits avant 1949</li>
+                        <li>Délai : 48h après visite</li>
+                    </ul>
+                    <a href="prix-contact.html" class="btn btn-outline">Demander un devis</a>
+                </div>
+            </div>
+
+            <!-- ERP -->
+            <div id="erp" class="diagnostic-item">
+                <div class="diagnostic-icon"><i class="fas fa-exclamation-circle"></i></div>
+                <div class="diagnostic-content">
+                    <h2>État des Risques et Pollutions (ERP)</h2>
+                    <p class="diagnostic-mandatory">Obligatoire</p>
+                    <p>Informe sur les risques naturels, technologiques et miniers affectant le bien, ainsi que la pollution des sols.</p>
+                    <ul class="diagnostic-details">
+                        <li>Durée de validité : 6 mois</li>
+                        <li>Obligatoire pour : Vente ou location</li>
+                        <li>Délai : 24h après demande</li>
+                    </ul>
+                    <a href="prix-contact.html" class="btn btn-outline">Demander un devis</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Besoin de Plusieurs Diagnostics ?</h2>
+                <p>Profitez de nos tarifs dégressifs pour plusieurs diagnostics réalisés simultanément</p>
+                <a href="prix-contact.html#devis-form" class="btn btn-primary btn-large">Demander un devis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Diag-Expert</h3>
+                    <p>Expert en diagnostics immobiliers certifiés</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> 01 23 45 67 89</p>
+                    <p><i class="fas fa-envelope"></i> contact@diag-expert.fr</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Diag-Expert. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div id="chatbot" class="chatbot-widget">
+        <div class="chatbot-icon" id="chatbot-icon">
+            <i class="fas fa-comments"></i>
+        </div>
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">
+                <h3>Chat avec un expert</h3>
+                <button class="chatbot-close" id="chatbot-close">&times;</button>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="chatbot-message bot-message">
+                    Bonjour ! 👋 Je suis là pour vous aider avec vos diagnostics immobiliers.
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbot-input" placeholder="Tapez votre message...">
+                <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
